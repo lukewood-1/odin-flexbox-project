@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+}
+
+.container {
+  padding: 10px 12.5%;
+}
+
+.hero-section {
+  background-color: #1F2937;
+  height: 430px;
+  padding-bottom: 60px;
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+}
+
+.header {
+  height: min-content;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 100%;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.hero-info {
+  flex: 1 1 325px;
+  display: flex;
+  flex-flow: column;
+  justify-content:center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.hero-info h1 {
+  font-size: 48px;
+}
+
+.hero-info p {
+  font-size: 18px;
+}
+
+button {
+  background: #3882f6;
+  color: white;
+  padding: 4px 20px;
+  border-radius: 5px;
+}
+
+.hero-img {
+ flex: 2 1 325px;
+ display:flex;
+ align-items: flex-start;
+}
+
+.hero-img img{
+  height: 220px;
+ flex :1;
+ align-self:center ;
+}
+
+.benefits-section {
+  height: 350px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.benefits-section h2 {
+  font-size: 30px;
+  margin: 20px;
+}
+
+.benefits-section img {
+  height: 125px;
+  width: 125px;
+  border-radius: 10px;
+  border: 2px solid #3882f6;
+}
+
+.benefits-section p {
+  padding: 0 10px;
+  font-size: .8em;
+  text-align: center;
+}
+
+.img-subsection {
+  display: flex;
+  align-items: space-evenly;
+  justify-content: center;
+  gap: 30px;
+}
+
+.img-subsection div {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 0 1 150px;
+}	
+
+.testimony-section {
+  background: #e5e7eb;
+  height: 375px;
+  font-size: 36px;
+  font-weight: 100;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimony-section div:nth-child(2) {
+  font-weight: 800;
+  align-self: flex-end;
+  font-size: .75em;
+}
+
+.cta-section {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-wrapper {
+  background: #3882f6;
+  height: 50%;
+  padding: 0 15%;
+  color: white;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  gap: 50px;
+  border-radius: 10px;
+}
+
+.cta-wrapper div{
+  min-width: fit-content;
+  flex: 1 auto;
+}
+
+.cta-wrapper button {
+  border: 2px solid #fff;
+  padding: 5px 20px;
+  font-weight: 900;
+}
+
+.cta-wrapper div p:nth-child(1){
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+.cta-wrapper div p:nth-child(2){
+  font-weight: 200;
+  font-size: 0.8em
+}
+footer {
+ height: 75px;
+ background: #1f2937;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+}
+
+
